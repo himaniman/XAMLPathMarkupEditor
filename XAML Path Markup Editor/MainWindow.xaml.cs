@@ -32,6 +32,8 @@ namespace XAML_Path_Markup_Editor
                 {
                     RenderTransform = Transformations,
                     Fill = Brushes.Black,
+                    Stroke = Brushes.Green,
+                    StrokeThickness = 4,
                     Data = Geometry.Parse(XAMLCodeBox.Text)
                 };
 
